@@ -1,0 +1,31 @@
+{
+  "name": "acme-reservation-planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmuminov/jmuminov-acme-reservation-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jmuminov/jmuminov-acme-reservation-planner/issues"
+  },
+  "homepage": "https://github.com/jmuminov/jmuminov-acme-reservation-planner#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
